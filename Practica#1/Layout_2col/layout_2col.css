@@ -1,0 +1,20 @@
+.container { 
+    display: grid; 
+    grid-template-areas: 'nav nav' 'sidebar main'; 
+    grid-template-columns: 1fr 3fr; 
+    gap: 10px; 
+    font-family: Arial, sans-serif; }
+nav { 
+    grid-area: nav; 
+    background: #34495e; 
+    color: white; 
+    padding: 15px; 
+    text-align: center; }
+.sidebar { 
+    grid-area: sidebar; 
+    background: #f39c12; 
+    padding: 20px; }
+.content { 
+    grid-area: main; 
+    background: #ecf0f1; 
+    padding: 20px; }

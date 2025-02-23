@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        .encabezado{
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .navegacion{
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+        }
+        .seccion{
+            background-color: aqua;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .article{
+            background-color: #f9f9f9;
+            padding: 20px;
+            width: 80%;
+        }
+        .aside{
+            background-color: #ddd;
+            width: 20%;
+            padding: 20px;
+        }
+        .pie{
+            background-color: #333;
+            color: white;
+            padding: 7.5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="encabezado">
+        <h1>encabezado</h1>
+    </header>
+    <nav class="navegacion">
+        <ul>
+            <li><a href="#">Elemento 1</a></li>
+            <li><a href="#">Elemento 2</a></li>
+            <li><a href="#">Elemento 3</a></li>
+        </ul>
+    </nav>
+    <section class="seccion">
+        <article class="article">
+            <h2>Título del artículo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed nunc vel turpis porttitor consectetur. Nulla facilisi. Donec vel neque non massa tristique varius ac vel nisi. Donec et convallis ipsum. Donec lobortis, ipsum sed ullamcorper rutrum, felis nunc laoreet lectus, at bibendum nunc neque vel erat. Sed vel est at neque congue scelerisque non eu velit. Sed in justo vel nunc faucibus tristique.</p>
+        </article>
+        <aside class="aside">
+            <h3>Aside</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed nunc vel turpis porttitor consectetur. Nulla facilisi.</p>
+        </aside>
+    </section>
+    <footer class="pie">
+        <p>Pie de página</p>
+    </footer>
+</body>
+</html>

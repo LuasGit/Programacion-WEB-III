@@ -1,0 +1,17 @@
+.container { 
+    display: flex; 
+    font-family: Arial, sans-serif; }
+.left { 
+    width: 20%; 
+    background: #e74c3c; 
+    color: white; 
+    padding: 20px; }
+.center { 
+    width: 60%; 
+    background: #ecf0f1; 
+    padding: 20px; }
+.right { 
+    width: 20%; 
+    background: #27ae60; 
+    color: white; 
+    padding: 20px; }

@@ -1,0 +1,16 @@
+.container { 
+    width: 80%; 
+    margin: auto; 
+    text-align: center; 
+    font-family: Arial, sans-serif; }
+header { 
+    background: #3498db; 
+    color: white; 
+    padding: 20px; }
+section { 
+    background: #ecf0f1; 
+    padding: 20px; }
+footer { 
+    background: #2c3e50; 
+    color: white; 
+    padding: 20px; }
